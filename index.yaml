@@ -1,25 +1,25 @@
 apiVersion: v1
 entries:
   idsvr:
-  - apiVersion: v1
-    appVersion: 6.2.2
-    created: "2021-06-15T16:10:24.699246+02:00"
-    description: A Helm chart for Curity Identity Server
-    digest: 83c79335b746ab68a3c63f5a6fa8c445fdba2d8ca194b7020264df5bfd3fe699
-    home: https://curity.io
-    icon: https://curity.io/assets/images/curity-logo-landscape.svg
-    keywords:
-    - iam
-    - oauth
-    - openid connect
-    - ldap
-    - sso
-    - saml
-    - scim
-    name: idsvr
-    urls:
-    - https://taxfix.github.io/idsvr-helm/idsvr-0.9.22-txf1.tgz
-    version: 0.9.22-txf1
+    - apiVersion: v1
+      appVersion: 6.2.2
+      created: "2021-06-15T16:10:24.699246+02:00"
+      description: A Helm chart for Curity Identity Server
+      digest: 83c79335b746ab68a3c63f5a6fa8c445fdba2d8ca194b7020264df5bfd3fe699
+      home: https://curity.io
+      icon: https://curity.io/assets/images/curity-logo-landscape.svg
+      keywords:
+      - iam
+      - oauth
+      - openid connect
+      - ldap
+      - sso
+      - saml
+      - scim
+      name: idsvr
+      urls:
+      - https://taxfix.github.io/idsvr-helm/idsvr-0.9.22-txf1.tgz
+      version: 0.9.22-txf1
     - apiVersion: v1
       appVersion: 6.2.2
       created: "2021-05-25T17:16:09.387234+02:00"
