@@ -107,6 +107,7 @@ Parameter | Description | Default
 `nodeSelector`| Node selector applied in admin and runtime deployments|`{}`
 `tolerations`| Tolerations applied in admin and runtime deployments |`{}`
 `affinity`| Affinity applied in admin and runtime deployments |`{}`
+`txf.enableLinkerd`| If true, adds `linkerd.io/inject: enabled` annotation to run-time and admin deployment spec |`false`
 
 <b id="f1">1</b> The network policy within the cluster will not have any affect unless there is a network policy provider that can enforce network policies. Check out kubernetes official documentation for more guidance on how to install network providers: [Install Network Policy Provider - Kubernetes](https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/)
 

@@ -21,6 +21,9 @@ spec:
         prometheus.io/scrape: "true"
         prometheus.io/path: /metrics
         prometheus.io/port: {{ include "curity.metricsPort" . | quote }}
+        {{- if .Values.txf.enableLinkerd }}
+        linkerd.io/inject: enabled
+        {{- end }}
     spec:
       containers:
         - name: {{ .Chart.Name }}-admin
